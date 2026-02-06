@@ -86,7 +86,8 @@ const path = require('path');
       width: finalPdfWidth,
       height: `${pageData.height + 20}px`, // Un pequeño margen extra seguro
       printBackground: true,
-      margin: { top: '0', bottom: '0', left: '0', right: '0' }
+      margin: { top: '0', bottom: '0', left: '0', right: '0' },
+      pageRanges: '1'
     });
 
     console.log(`✅ PDF Guardado: ${filename}`);
