@@ -1,7 +1,7 @@
 {
   "name": "cli2pdf",
   "version": "1.0.0",
-  "description": "Generador de PDF infinito usando Chromium para Windows/PowerShell",
+  "description": "Generador de PDF infinito usando Playwright (Chromium) para Windows",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
@@ -11,6 +11,7 @@
     "chromium",
     "playwright",
     "infinite-scroll",
+    "cli",
     "windows"
   ],
   "author": "0GMou",
