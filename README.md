@@ -64,4 +64,5 @@ node index.js "https://es.wikipedia.org/wiki/Internet" --fhd
 ## 📂 Output
 
 The PDF will be generated in the same folder with a timestamped filename, for example:
+
 `Internet_-_Wikipedia_2026-02-06T21-30.pdf`
